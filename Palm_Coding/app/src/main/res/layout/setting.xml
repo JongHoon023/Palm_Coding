@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="크기"
+		android:textSize="20sp"
+		android:textColor="#000000"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="글자 크기 조절"
+		android:id="@+id/text_size"
+		android:layout_gravity="center"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="색상"
+		android:textSize="20sp"
+		android:textColor="#000000"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="배경 색상"
+		android:id="@+id/background"
+		android:layout_gravity="center"/>
+	
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="글자 색상"
+		android:id="@+id/tc"
+		android:layout_gravity="center"/>
+	
+</LinearLayout>
+

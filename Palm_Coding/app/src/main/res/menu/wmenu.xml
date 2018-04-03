@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/browser"
+        android:title="다른 브라우저로 확인"
+		android:orderInCategory="1"
+        android:showAsAction="never" />
+    
+</menu>
