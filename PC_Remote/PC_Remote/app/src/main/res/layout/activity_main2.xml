@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="9"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/left"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:text="←\n(이전 슬라이드)"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="↑\n(위로)"/>
+
+            <Button
+                android:id="@+id/esc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ESC\n(슬라이드 종료)"/>
+
+            <Button
+                android:id="@+id/f5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="f5\n(슬라이드 시작)"/>
+
+            <Button
+                android:id="@+id/shift_f5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shift + F5\n(현재 슬라이드 시작)"/>
+
+            <Button
+                android:id="@+id/down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="↓\n(아래로)"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/right"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:text="→\n(다음 슬라이드)"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
